@@ -1,0 +1,50 @@
+.conmain{
+	margin-top: 4%;font-family: 'Marko One', Times New Roman, Verdana, sans-serif;background-color: rgb(227,251,227);
+}
+.conmain h1{
+	color: rgb(60,159,113);
+}
+.conmain p{
+	font-family: Verdana, sans-serif;width: 70%;margin-left: 5%;text-align: center;
+}
+.consec1{
+	width: 50%;margin-left: 20%;margin-top: 5%;
+}
+.consec1 p{
+	font-family: Verdana;
+	text-align: left;
+	margin-left: 0%;
+}
+.consec1 input{
+	width: 35%;height: 2.3em;
+}
+.consec1 input[name=email]{
+	margin-left: 2.8%;
+}
+.more_button1{
+	border: solid;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background-color: rgb(60,179,113);
+	width: 75%;
+}
+.consec2{
+	display: flex;margin-top: 5%;
+}
+.consec3{
+	width: 25%;margin-left: 10%;
+}
+.consec2 p{
+	font-family:Comic Sans MS;font-size:16px;
+}
+.consec4{
+	width: 40%;
+}

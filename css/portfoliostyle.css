@@ -1,0 +1,37 @@
+.portmain{
+	position: absolute; 
+	margin-top: 4%; 
+	font-family: Segoe UI Black; 
+	width: 60%;
+	margin-left: 2%;
+}
+.portmain img{
+	width: 90%; height: 25em;
+}
+.portmain p{
+	font-family:Comic Sans MS;font-size:16px;
+}
+.portsec1{
+	width: 35%; margin-top: 4%; float: right;font-family: Segoe UI Black;
+}
+.portsec2{
+	margin-top:2%;background-color:rgb(251,251,251);float: left;
+}
+.portsec2 img{
+	float:left;width:150px;height:150px;
+}
+.portsec2 p{
+	font-family:Comic Sans MS;margin-left:10.2em;
+}
+.portsec3{
+	margin-top: 2%;width: 90%; margin-left: 5%;font-family: Segoe UI Black;float: left;padding-bottom: 5%;
+}
+.portsec4{
+	width: 40%;float: left;margin-left: 5%;
+}
+.portsec4 p, .portsec5 p{
+	font-family:Comic Sans MS;font-size:16px;
+}
+.portsec5{
+	position: relative; width: 40%;float: right;margin-right: 5%;
+}

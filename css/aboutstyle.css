@@ -1,0 +1,40 @@
+.abtmain{
+	width: 100%;margin-top: 4%;background-color: rgb(227,251,227);padding-bottom: 5%;
+}
+.abtmain h1{
+	color: rgb(60,159,113);font-family: Segoe UI Black;
+}
+.abtmain p{
+	font-family: Verdana, sans-serif;width: 80%;margin-left: 10%;
+}
+.abtsec1{
+	margin-top: 5%;margin-left: 10%;font-family: Verdana, sans-serif;
+}
+.abtsec1 img{
+	width: 15em;height: 15em;
+}
+.abtsec1 h2{
+	color: rgb(60,159,113);margin-bottom: 5%;margin-top: 3%;
+}
+.abtsec2{
+	float: right;width: 65%;margin-right: 15%;background-color: rgb(227,251,227);
+}
+.abtsec2 h2{
+	color: rgb(60,159,113);margin-top: -0.2%;margin-bottom: 1.5%;
+}
+.abtsec2 p{
+	margin: 0%;
+}
+.abtsec2 .more_button{
+	margin-top: 3%;
+	margin-right: 15%;
+}
+.abtsec3{
+	margin-top: 2%;display: flex;
+}
+.abtsec4{
+	width: 27%;margin-right: 4%;
+}
+.abtsec5{
+	width: 27%;
+}

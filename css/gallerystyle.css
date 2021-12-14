@@ -1,0 +1,18 @@
+.galmain{
+	margin-top: 4%;font-family: 'Marko One', Times New Roman, Verdana, sans-serif;background-color: rgb(227,251,227);padding-bottom: 5%;
+}
+.galmain h1{
+	color: rgb(60,159,113);
+}
+.galmain p{
+	font-family: Verdana, sans-serif;width: 90%;margin-left: 5%;
+}
+.galsec1{
+	display: flex;width: 90%; margin-left: 10%;margin-top: 3%;
+}
+.galsec1 img{
+	width: 20em; height: 20em;border: 1px solid;
+}
+.galsec1 .galimg{
+	margin-left: 8%;
+}
