@@ -3,7 +3,7 @@ table, th, td {
   padding: 10px;
 }
 .servmain{
-	margin-top: 4%;font-family: 'Marko One', Times New Roman, Verdana, sans-serif;background-color: rgb(227,251,227);padding-bottom: 5%;
+	font-family: 'Marko One', Times New Roman, Verdana, sans-serif;background-color: rgb(227,251,227);padding-bottom: 5%;
 }
 .servmain h2{
 	color: rgb(60,159,113);

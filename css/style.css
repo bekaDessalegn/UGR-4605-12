@@ -1,47 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo{
-			width: 13%;
-			height: 13%;
-			float: left;
-			margin-left: 70px;
-		}
-		header nav ul {
- margin: 0;
- padding: 0;
- list-style-type: none;
- display: flex;
-}
-nav ul li a {
- border: 1px solid white;
- padding: 0.5em 1em;
- margin: 0.5em;
- text-decoration: none;
- font-size: 20px;
- color: rgb(7.5,50.6,45.1);
- font-family: 'Marko One',Segoe UI Black, Comic Sans MS, Times New Roman, Verdana, sans-serif;
-}
-#container{
-	margin-left: 350px;
-	padding-top: 35px;
-}
-nav ul li a:hover{
-	color: rgb(255,165,0); 
-	text-decoration: underline rgb(60,179,113);
-}
-.active{
-	color: rgb(255,165,0);
-}
+            width: 11.5rem;
+            height: 6.5rem;
+            margin-left: 4rem;
+        }
+
 nav ul li form{
-	margin-top: -25px;
-	margin-left: 50px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 nav ul li input[type=text]{
-	border: 1px solid;
-	border-radius: 6px;
-	font-size: 17px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: rgb(7.5,50.6,45.1);
+    font-family: 'Marko One',Segoe UI Black, Comic Sans MS, Times New Roman, Verdana, sans-serif;
+}
+
+.navbar-links li a:hover {
+    color: rgb(255,165,0); 
+    text-decoration: underline rgb(60,179,113);
+}
+
+.navbar-links .active{
+    color: rgb(255,165,0);
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    nav ul li form{
+        display: none;
+    }
 }
 
 .mySlides {
-    display: none
+    display: none;
 }
 
 .slideshow-container {

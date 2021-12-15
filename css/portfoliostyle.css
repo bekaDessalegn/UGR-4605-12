@@ -1,6 +1,5 @@
 .portmain{
-	position: absolute; 
-	margin-top: 4%; 
+	position: absolute;
 	font-family: Segoe UI Black; 
 	width: 60%;
 	margin-left: 2%;
@@ -12,7 +11,7 @@
 	font-family:Comic Sans MS;font-size:16px;
 }
 .portsec1{
-	width: 35%; margin-top: 4%; float: right;font-family: Segoe UI Black;
+	width: 35%; float: right;font-family: Segoe UI Black;
 }
 .portsec2{
 	margin-top:2%;background-color:rgb(251,251,251);float: left;
