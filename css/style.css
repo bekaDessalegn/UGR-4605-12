@@ -227,7 +227,7 @@ nav ul li input[type=text]{
   background-color:rgb(251,251,251);
 }
 .sec1 img, .sec2 img{
-  width: 30%;height: 30%;float: left;margin-left: 10%;margin-right: 1%;
+  width: 18rem;height: 18rem;float: left;margin-left: 10%;margin-right: 1%;
 }
 .sec1 p, .sec2 p{
   font-family:Comic Sans MS;font-size:16px;

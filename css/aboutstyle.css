@@ -1,40 +1,55 @@
 .abtmain{
-	width: 100%;background-color: rgb(227,251,227);padding-bottom: 5%;
+	width: 100%;
+	background-color: rgb(227,251,227);
+	padding-bottom: 5%;
 }
 .abtmain h1{
-	color: rgb(60,159,113);font-family: Segoe UI Black;
+	color: rgb(60,159,113);
+	font-family: Segoe UI Black;
 }
 .abtmain p{
-	font-family: Verdana, sans-serif;width: 80%;margin-left: 10%;
+	font-family: Verdana, sans-serif;
+	width: 80%;
+	margin-left: 10%;
 }
 .abtsec1{
-	margin-top: 5%;margin-left: 10%;font-family: Verdana, sans-serif;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-family: Verdana, sans-serif;
 }
 .abtsec1 img{
-	width: 15em;height: 15em;
+	width: 15em;
+	height: 15em;
 }
 .abtsec1 h2{
-	color: rgb(60,159,113);margin-bottom: 5%;margin-top: 3%;
+	color: rgb(60,159,113);
+	margin-bottom: 5%;
+	margin-top: 3%;
 }
 .abtsec2{
-	float: right;width: 65%;margin-right: 15%;background-color: rgb(227,251,227);
+	background-color: rgb(227,251,227);
+	display: grid;
+	grid-template-columns: 16em 1000px;
 }
 .abtsec2 h2{
-	color: rgb(60,159,113);margin-top: -0.2%;margin-bottom: 1.5%;
+	margin: 0%;
+	margin-bottom: 1rem;
+	color: rgb(60,159,113);
 }
 .abtsec2 p{
 	margin: 0%;
 }
 .abtsec2 .more_button{
-	margin-top: 3%;
+	margin-top: 0.8rem;
 	margin-right: 15%;
 }
+.ourteam{
+	margin-top: 2rem;
+}
 .abtsec3{
-	margin-top: 2%;display: flex;
-}
-.abtsec4{
-	width: 27%;margin-right: 4%;
-}
-.abtsec5{
-	width: 27%;
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: 330px 330px 330px 330px;
+	text-align: center;
+	margin-right: 0.2rem;
 }
